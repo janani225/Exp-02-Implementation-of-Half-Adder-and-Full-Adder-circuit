@@ -31,24 +31,67 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 ### Procedure
 
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-If the output is 1, then the led glows.
+1.Create a New Project:
+
+Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
+
+2.Create a New Design File:
+
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
+
+3.Write the Combinational Logic Code:
+
+Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+
+4.Compile the Project:
+
+To compile the project, click on "Processing" > "Start Compilation" in the menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+
+5.Analyze and Fix Errors:
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window. Review and fix any issues in your code if necessary. View the RTL diagram.
+
+6.Verification:
+
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table and then simulate the Output Waveform.
 ### 
-Program:
-/*
+### Program:
+
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
+Developed by: V.S.Janani 
+RegisterNumber: 212222230050
+
+### Half adder:
+```
+module exppp(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum= a^b;
+assign carry = a&b;
+endmodule
+```
+### Full adder:
+```
+module full(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum= a^b^cin;
+assign carry = (a&b)|((a^b)&cin);
+endmodule
+```
 
 ### Output:
-### RTL
-### TIMING DIAGRAM
-
-
-### TRUTH TABLE 
-
+### Half adder Truthtable:
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/83342354-811b-4ce5-9710-26469d5b9e5f)
+### Half Adder RTL realization:
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/9d93dbeb-fff5-43b4-9b8b-ce4f99ca459f)
+### Timing Diagram Half Adder:
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/acf2dfb5-7cc2-43aa-8453-df8b4f58bb7e)
+### Full Adder Truthtable:
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/bdd677a8-a6ac-4734-9b33-8b5d87958f1e)
+### Full Adder RTL realization:
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/8c64602c-d81c-4a83-85f5-e80452f2bd60)
+### Timing Diagram Full Adder:
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/741e65dc-294a-4df1-87f9-ab29644ebd47)
 ### Result:
+Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
