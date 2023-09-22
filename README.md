@@ -86,13 +86,15 @@ endmodule
 ### Half Adder RTL realization:
 ![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/9d93dbeb-fff5-43b4-9b8b-ce4f99ca459f)
 ### Timing Diagram Half Adder:
-![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/acf2dfb5-7cc2-43aa-8453-df8b4f58bb7e)
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/1ff383da-b334-4e5b-87b3-cff0f90d48a9)
+
 ### Full Adder Truthtable:
 ![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/bdd677a8-a6ac-4734-9b33-8b5d87958f1e)
 ### Full Adder RTL realization:
 ![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/8c64602c-d81c-4a83-85f5-e80452f2bd60)
 ### Timing Diagram Full Adder:
-![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/167b1f69-08a3-406a-9dea-ce94ae3d06b4)
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/ee48f729-f90d-4fa3-b0cd-2452de248973)
+
 
 
 ### Result:
