@@ -92,6 +92,8 @@ endmodule
 ### Full Adder RTL realization:
 ![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/8c64602c-d81c-4a83-85f5-e80452f2bd60)
 ### Timing Diagram Full Adder:
-![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/741e65dc-294a-4df1-87f9-ab29644ebd47)
+![image](https://github.com/janani225/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/113497333/167b1f69-08a3-406a-9dea-ce94ae3d06b4)
+
+
 ### Result:
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
